@@ -21,8 +21,8 @@
 * A templatized front page
 * Header and footer on the pages managed seprately and that must be included (and not hardcoded in each page)
 * Templatized pages for AWS machine image products and services:
-- Index page: https://kurianinc.us/?page_id=1680 Sample detail page: https://kurianinc.us/?page_id=1865
-- https://kurianinc.us/?page_id=2563 (only a link needed from index page, no detailed page)
+ * Index page: https://kurianinc.us/?page_id=1680 Sample detail page: https://kurianinc.us/?page_id=1865
+ * https://kurianinc.us/?page_id=2563 (only a link needed from index page, no detailed page)
 
 ## Resources
 * Jekyll Tutorial - https://jekyllrb.com/docs/step-by-step/01-setup/
