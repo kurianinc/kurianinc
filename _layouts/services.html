@@ -1,0 +1,50 @@
+---
+layout: default
+bodyClass: "page-services"
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-8">
+        <div class="page-header-inner">
+          <h1 class="title">{{page.title}}</h1>
+          <div class="content">{{content}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container">
+    <div class="row justify-content-start mb-4">
+      {% assign services = site.services | sort: 'weight' %}
+      
+      {% for service in services %}
+      <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+        <div class="card-wrapper">
+          <div class="card">
+            {% if service.image %}
+            <div class="card-preview">
+                <img alt="{{ service.title }}" src="{{ service.image | relative_url }}" />
+            </div>
+            {% endif %}
+            <div class="card-content">
+              <h2 class="card-title">
+                {% if service.externalUrl %}
+                <a href="{{ service.externalUrl }}" target="_blank" class="card-link">{{ service.title }}</a>
+                {% else %}
+                <a href="{{ service.url | relative_url }}" class="card-link">{{ service.title }}</a>
+                {% endif %}
+              </h2>
+              <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {% endfor %}
+    </div>
+  </div>
+</div>

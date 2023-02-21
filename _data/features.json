@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Documentation",
+    "description": "Document tools and processes for continuity and maintenance.",
+    "image": {
+      "url": "images/features/documentation.png",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Processes",
+    "description": "Rollout processes to sustain automation efforts.",
+    "image": {
+      "url": "images/features/processes.png",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Tools",
+    "description": "Help you select the right DevOps toolchain for automation and roll them out.",
+    "image": {
+      "url": "images/features/tools.png",
+      "width": 80,
+      "height": 80
+    }
+  }
+]

@@ -1,0 +1,62 @@
+url: ronca85.github.io
+baseurl: '/'
+# baseurl: '/test-serif'
+permalink: pretty
+title: 'Kurian'
+
+logo:
+  mobile: "images/logo/logo-mobile.svg"
+  mobile_height: "32px"
+  mobile_width: "54px"
+  desktop: "images/logo/logo.svg"
+  desktop_height: "38px"
+  desktop_width: "64px"
+
+home: 
+  limit_services: 6
+  limit_news: 3
+
+collections:
+  about_blocks: # page about
+    output: true
+  products: # page aws-machine-images
+    output: true
+  services:
+    output: true
+    # sort_by: weight # doesn't work on github pages https://talk.jekyllrb.com/t/collections-dont-order-properly-on-github-pages/4652/3
+  resources:
+    output: true
+  team:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team"
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
+plugins:
+  - jekyll-environment-variables
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md
+
+remote_theme: ronca85/test-serif

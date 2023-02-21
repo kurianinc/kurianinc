@@ -1,0 +1,36 @@
+<div id="main-menu-mobile" class="main-menu-mobile">
+  {% assign mainmenu = site.data.menus.main | sort: 'weight' %}
+  <ul>
+    {% for item in mainmenu %}
+    <li class="{% if item.url == page.url %}active{% endif %}">
+      {% if item.url %}
+      <a href="{{ item.url | relative_url }}">
+        <span>{{ item.name }}</span>
+      </a>
+
+      {% else %}
+      <a href="#" class="main-menu-toggle-mobile js-mobile-dropdown-toggle">
+        <span>{{ item.name }}</span>
+        <span class="submenu-indicator"></span>
+      </a>
+
+      {% assign submenu = item.submenu | sort: 'weight' %}
+      <ul class="main-menu-dropdown-mobile js-mobile-dropdown-panel">
+        {% for item in submenu %}
+
+        <li class="{% if item.url == page.url %}active{% endif %}">
+          {% if item.url %}
+          <a href="{{ item.url | relative_url }}" {% if item.is_external %}target="_blank"{% endif %}>
+            <span>{{ item.name }}</span>
+          </a>
+          {% endif %}
+        </li>
+
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+    </li>
+    {% endfor %}
+  </ul>
+</div>

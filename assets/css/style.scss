@@ -1,0 +1,91 @@
+---
+---
+
+// Colors
+$primary: #007aff;
+$primary-dark: #086299;
+$secondary: #66afff;
+$black: #2f2f41;
+$white: #ffffff;
+$white-offset: #eff7ff;
+$steel: #5c5a5a;
+
+// Links
+$link-color: $primary;
+$link-decoration: none;
+$link-hover-color: lighten($primary, 10%);
+$link-hover-decoration: underline;
+
+// Fonts
+// $font-family-base: Helvetica, Arial, sans-serif, -apple-system;
+// $font-family-heading: "Playfair Display", serif, -apple-system; // theme default whn using googlefonts
+
+// using github's free font Mona Sans - https://github.com/github/mona-sans
+$font-family-base: "Mona Sans Regular", Arial, sans-serif, -apple-system;
+$font-family-heading: "Mona Sans Bold", serif, -apple-system;
+
+// Footer
+$footer-background-color: $primary;
+$footer-text-color: $white;
+$sub-footer-background-color: darken($primary, 10%);
+$sub-footer-text-color: $white;
+
+// Bootstrap
+@import "bootstrap-variables";
+@import "bootstrap/bootstrap-reboot";
+@import "bootstrap/bootstrap-grid";
+// @import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
+
+// Libraries
+@import "libraries/hamburgers/hamburgers";
+
+// Components
+@import "components/type";
+@import "components/page";
+@import "components/header";
+@import "components/footer";
+@import "components/sub-footer";
+@import "components/logo";
+@import "components/main-menu";
+@import "components/main-menu-mobile";
+@import "components/hamburger";
+@import "components/buttons";
+@import "components/call";
+@import "components/title";
+@import "components/content";
+@import "components/intro";
+@import "components/intro-image";
+@import "components/strip";
+@import "components/feature";
+@import "components/social";
+@import "components/fonts"; // Uncomment this line to self host font
+
+// custom
+@import "components/card";
+@import "components/contact-social";
+@import "components/block";
+
+// Pages
+@import "pages/page-home";
+@import "pages/page-teams";
+// @import "pages/page-service";
+
+body {
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: $font-family-base;
+  @include media-breakpoint-up(md) {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
+
+::selection {
+  background-color: $black;
+  color: $white;
+}
+
+code {
+  color: #e83e8c;
+  background-color: rgba(232, 62, 140, 0.1);
+}

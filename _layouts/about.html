@@ -1,0 +1,42 @@
+---
+layout: default
+bodyClass: "page-about"
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-8">
+        <div class="page-header-inner">
+          <h1 class="title">{{page.title}}</h1>
+          <div class="content">{{content}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container">
+    {% assign about_blocks = site.about_blocks | sort: 'weight' %}
+    
+    {% for block in about_blocks %}
+    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    <div class="row justify-content-start align-items-center mb-4">
+      <div class="col-12 col-md-6 {% cycle '', 'order-md-1' %}">
+        <div class="block-content">
+          <h2 class="strip-title">{{ block.title }}</h2>
+          <p>{{ block.content | markdownify }}</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        {% if block.image %}
+        <div class="block-image">
+            <img alt="{{ block.title }}" src="{{ block.image | relative_url }}" />
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
