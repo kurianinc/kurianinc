@@ -1,6 +1,4 @@
-url: ronca85.github.io
 baseurl: '/'
-# baseurl: '/test-serif'
 permalink: pretty
 title: 'Kurian'
 
@@ -58,5 +56,3 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
-
-remote_theme: ronca85/test-serif
