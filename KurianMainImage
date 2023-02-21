@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" modified="2023-02-21T03:16:09.214Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="GfnWDJZ_5MO31IAo-1zT" version="20.8.21" type="github">
+  <diagram name="Page-1" id="K8hK93zIiZDoFeFpfdJW">
+    <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pgg5XAVY32GeYEMwzI5S-1" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.internet" parent="1" vertex="1">
+          <mxGeometry x="200" y="120" width="50" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="pgg5XAVY32GeYEMwzI5S-2" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.backup_online" parent="1" vertex="1">
+          <mxGeometry x="280" y="120" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pgg5XAVY32GeYEMwzI5S-3" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.tool;" parent="1" vertex="1">
+          <mxGeometry x="210" y="180" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="pgg5XAVY32GeYEMwzI5S-4" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.backup_local" parent="1" vertex="1">
+          <mxGeometry x="280" y="170" width="49" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pgg5XAVY32GeYEMwzI5S-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.62;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.49;entryY=0.36;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="pgg5XAVY32GeYEMwzI5S-3" target="pgg5XAVY32GeYEMwzI5S-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pgg5XAVY32GeYEMwzI5S-6" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.management_console;" parent="1" vertex="1">
+          <mxGeometry x="212.35" y="250" width="117.65" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pgg5XAVY32GeYEMwzI5S-9" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" parent="1" vertex="1">
+          <mxGeometry x="380" y="134" width="82.61" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="pgg5XAVY32GeYEMwzI5S-10" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.ami2;aspect=fixed;fillColor=#FF9900;strokeColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="370" y="250" width="88.8" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
