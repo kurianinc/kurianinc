@@ -1,28 +1,31 @@
-# kurianinc
+# General guidelines
 
-## Website requirements
+## Products
+To add a new product go to `_products` folder and make a copy of any file, for example `drupal.md`. Edit its content and filename. Save the file and run `bundle exec jekyll serve` to check in the local development environment.
 
-* The current site is at http://kurianinc.us/ That needs to be moved to Gethub Pages using this repository.
-* A typical product page looks like this - https://kurianinc.us/?page_id=1839 It needs to be migrated in the format https://kurianinc.us/aws-machine-images/apache-web-server/ A temp name could be used first with the assumption that renaming of related file in GitHub later would enough to retain this mapping.
-* Pick a suitable Jekyll theme. No preference.
-* There is no one-to-one migration except for the product and service pages. The objctive is to have simpler, professional website that suits our small business in cloud computing.
+Note: You will need to edit the `permalink` field (has to be unique) and `weight` to have them change order. We've setup sorting by weight and the steps are 10, 20, 30 so you can use 25 to get a page between 20 and 30.
 
-## Vendor requirements
-* You have experience building professional websites using GitHub Pages.
-* Github account that can be used to checkin the code.
+## Services
+The procedure is the same for services as well.
 
-## Your response would include:
-* Experience building Github Pages based websites.
-* Sample sites
-* Total charge in USD.
-* Turnaround time to go live.
+Note: Some services are links to external pages so they don't have the `permalink` field.
 
-## Deliverables
-* A templatized front page
-* Header and footer on the pages managed seprately and that must be included (and not hardcoded in each page)
-* Templatized pages for AWS machine image products and services:
-  * Index page: https://kurianinc.us/?page_id=1680 Sample detail page: https://kurianinc.us/?page_id=1865
-  * https://kurianinc.us/?page_id=2563 (only a link needed from index page, no detailed page)
+## Other pages
+To change the content of pages like `/about` find the `_layouts` folder and find the file `about.html` file inside. Edit its content.
 
-## Resources
-* Jekyll Tutorial - https://jekyllrb.com/docs/step-by-step/01-setup/
+Some layouts in the `_layouts` folder like `teams` for example are not used but they were a part of the theme used at the start. They can be used at a later point if needed.
+
+## Exceptions
+Certain pages like `/about`, `/contact`, `/404` and the homepage have parts of their content in files in the root of the project. For example: you will need to go to `contact.md` to edit the text or the email address
+
+## Images
+The image thumbnails dimensions for the services page are 800x466
+The image thumbnails dimensions for the products page and the about page are 609x425
+For best results keep the dimensions consistent.
+
+Note: If you decide to change the dimensions at some point you will need to change the dimensions for all images so it is best to stay with the format.
+
+Use ![photopea](https://www.photopea.com/) and ![tinypng](https://tinypng.com/) for image optimization.
+
+![product/about thumbnail tempalte](https://user-images.githubusercontent.com/13383578/220555751-74a47c75-c58d-4325-92a3-8aa11ad8fb28.png)
+![service thumbnail tempalte](https://user-images.githubusercontent.com/13383578/220555958-4ea4caf3-d99c-4b93-bf97-6bbc8a732ad9.png)
