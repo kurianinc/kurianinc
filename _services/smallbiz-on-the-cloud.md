@@ -6,6 +6,6 @@ permalink: "/aws-professional-services/smallbiz-on-the-cloud/"
 weight: 40
 ---
 
-# SmallBiz on the Cloud title
+# SmallBiz on the Cloud
 
-SmallBiz on the Cloud content goes here
+The core services needed for running a small business such as website, email and support ticketing system, are run in a public cloud platform like AWS. This helps a growing business to scale those services as the business grows and there is no need to subscribe any such services upfront. 
