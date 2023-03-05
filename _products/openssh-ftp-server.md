@@ -46,6 +46,13 @@ Kurian releases latest, stable versions of open source software on popular Linux
 [](https://github.com/kurianinc/ami-pub/wiki/OpenSSH-FTP-Server#configuration)Configuration
 ===========================================================================================
 
+*   Note that on the some of the Linux distributions Kurian's SFTP server starts up fully configured with a default user `ftpusr`. To check that try logging in as follows with `instance-id` as the password:
+```
+$ sftp ftpusr@IP-ADDRESS
+
+```
+*   Continue configuring as described below and use the script provided to add more users if you need users in addition to `ftpusr`.
+
 *   Spin up an EC2 node with this AMI with adequate storage on the root partition to support your file transfer requirements.
 *   SSH into the new EC2 instance as user specific to the operating system. See `Remote Access to EC2 Node` below to see the users listed.
 *   Open `/etc/ssh/sshd_config` and look at the following block towards the end, and make sure that `PasswordAuthentication` is set to `yes`, in the following section.
