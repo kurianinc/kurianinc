@@ -10,4 +10,4 @@ This CI/CD pipeline infrastructure consists of a Git Server, Jenkins Server and 
 
 The deliverables of this service would be setting up of the CI/CD pipeline infrastructure, documentation and basic training.
 
-The details on the service that we offer on AWS can be found here https://aws.amazon.com/marketplace/pp/prodview-i3zr55btyo2ii?qid=1617238109971
+The details on the service that we offer on AWS can be found here [Build and Support CI/CD Pipeline Infrastructure on AWS](https://aws.amazon.com/marketplace/pp/prodview-i3zr55btyo2ii?qid=1617238109971)
