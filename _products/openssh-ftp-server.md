@@ -48,8 +48,9 @@ Kurian releases latest, stable versions of open source software on popular Linux
 
 *   Spin up an EC2 node with this AMI with adequate storage on the root partition to support your file transfer requirements.
 *   SSH into the new EC2 instance as user specific to the operating system. See `Remote Access to EC2 Node` below to see the users listed.
-*   Open `/etc/ssh/sshd_config` and look at the following block towards the end, and make sure that `PasswordAuthentication` is set to `yes`.
+*   Open `/etc/ssh/sshd_config` and look at the following block towards the end, and make sure that `PasswordAuthentication` is set to `yes`, in the following section.
 
+```
     Match group sftpusers
       PasswordAuthentication yes
       ChrootDirectory /sftp/%u
@@ -58,7 +59,7 @@ Kurian releases latest, stable versions of open source software on popular Linux
       AllowAgentForwarding no
       ForceCommand internal-sftp
       PermitTunnel no
-    
+   ```
 
 *   If `/etc/ssh/sshd_config` had to to modified restart the SSH daemon service:
 
