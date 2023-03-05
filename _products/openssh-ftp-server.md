@@ -98,6 +98,9 @@ Following are the standard AWS defined users available when a node is provisione
 *   Amazon Linux: ec2-user
 *   Red Hat Linux: ec2-user
 *   SuSE Linux: ec2-user
+*   Oracle Linux: ec2-user
+*   AlmaLinux: ec2-user
+*   Rocky Linux: rocky
 *   Fedora: fedora
 *   CentOS: centos
 *   Debian Linux: admin
