@@ -47,10 +47,9 @@ Kurian releases latest, stable versions of open source software on popular Linux
 ===========================================================================================
 
 *   Note that with latest versions of the AMI, Kurian's SFTP server starts up fully configured with a default user `ftpusr`. To check that try logging in as follows with `instance-id` as the password:
-```
-$ sftp ftpusr@IP-ADDRESS
 
-```
+`$ sftp ftpusr@EC2-NODE-IP`
+
 *   Continue configuring as described below and use the script provided to add more users if you need users in addition to `ftpusr`.
 
 *   Spin up an EC2 node with this AMI with adequate storage on the root partition to support your file transfer requirements.
@@ -66,22 +65,22 @@ $ sftp ftpusr@IP-ADDRESS
       AllowAgentForwarding no
       ForceCommand internal-sftp
       PermitTunnel no
-   ```
+```
 
 *   If `/etc/ssh/sshd_config` had to to modified restart the SSH daemon service:
 
-    $ sudo service sshd restart #On Debian based systems the service could be ssh.
+    `$ sudo service sshd restart` #On Debian based systems the service could be ssh.
     
 
 *   Create ftp users using the script `/usr/local/bin/create-ftp-user.sh`
 
-    $ sudo /usr/local/bin/create-ftp-user.sh USER PASSWORD
+    `$ sudo /usr/local/bin/create-ftp-user.sh USER PASSWORD`
     
 
 *   Each user has the home directory at `/sftp/USER` and sub-directories Incoming and Outgoing. When the user if logged into SFTP server these subdirectories will be visible. If this directory structure needs to be custom, create that under the home directory and set owner and permission same as that the Incoming and Outgoing directories are configured with. Look up in `/usr/local/bin/create-ftp-user.sh` for directions on how the user directories are setup.
 *   Check access to new SFTP server following standard FTP client procedures using any client as the default user or any other new user setup by you. From command-line, the sftp client can be started as follows:
 
-    $ sftp ftpusr@EC2-NODE-PUBLIC-IP
+    `$ sftp ftpusr@EC2-NODE-IP`
     
 
 *   If the SFTP server is published with CNAME such a `sftp.yourcompany.com`, point the CNAME to the IP address. It’s recommended to use an EIP as you will have the freedom upgrade the SFTP server with a new AMI in the future.
