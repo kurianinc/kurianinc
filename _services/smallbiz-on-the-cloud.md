@@ -8,4 +8,6 @@ weight: 40
 
 # SmallBiz on the Cloud
 
-The core services needed for running a small business such as website, email and support ticketing system, are run in a public cloud platform like AWS. This helps a growing business to scale those services as the business grows and there is no need to subscribe any such services upfront. 
+The core services needed for running a small business such as website, email and support ticketing system, are run in a public cloud platform like AWS. This helps a growing business to scale those services as the business grows and there is no need to subscribe any such services upfront.
+
+If you need a starter professional website complete with a support ticketing tool for your business send the requirements to contact@kurianinc.us.
