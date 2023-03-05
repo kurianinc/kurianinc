@@ -46,7 +46,7 @@ Kurian releases latest, stable versions of open source software on popular Linux
 [](https://github.com/kurianinc/ami-pub/wiki/OpenSSH-FTP-Server#configuration)Configuration
 ===========================================================================================
 
-*   Note that on the some of the Linux distributions Kurian's SFTP server starts up fully configured with a default user `ftpusr`. To check that try logging in as follows with `instance-id` as the password:
+*   Note that with latest versions of the AMI, Kurian's SFTP server starts up fully configured with a default user `ftpusr`. To check that try logging in as follows with `instance-id` as the password:
 ```
 $ sftp ftpusr@IP-ADDRESS
 
