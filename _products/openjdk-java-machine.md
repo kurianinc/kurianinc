@@ -63,6 +63,22 @@ Click on the links below to take you to Amazon Marketplace for spinning up EC2 n
 *   [OpenJDK 8 LTS Java Machine for Ubuntu 22.04](https://aws.amazon.com/marketplace/pp/prodview-kjvvvealqulnw?sr=0-3&ref_=beagle&applicationId=AWSMPContessa)
 *   [OpenJDK 8 LTS Java Machine for Fedora 31](https://aws.amazon.com/marketplace/pp/prodview-atjpxuctthkm6?sr=0-4&ref_=beagle&applicationId=AWSMPContessa)
 *   [OpenJDK 8 LTS Java Machine for SUSE Linux 12 SP5 with Support by Kurian](https://aws.amazon.com/marketplace/pp/prodview-4g4blntdqje5q?sr=0-17&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 11 LTS Java Machine for Amazon Linux 2](https://aws.amazon.com/marketplace/pp/prodview-pj6gyvvx2iqug?sr=0-10&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 11 LTS Java Machine for AlmaLinux 8](https://aws.amazon.com/marketplace/pp/prodview-q4dcqvtpln42g?sr=0-2&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 11 LTS Java Machine for Rocky Linux 8](https://aws.amazon.com/marketplace/pp/prodview-beotcw5amvka4?sr=0-11&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 11 LTS Java Machine for Oracle Linux Server 7](https://aws.amazon.com/marketplace/pp/prodview-vgrzuflkku6tk?sr=0-12&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 11 LTS Java Machine for Oracle Linux Server 8](https://aws.amazon.com/marketplace/pp/prodview-su667ncgov2km?sr=0-13&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 11 LTS Java Machine for Red Hat Enterprise Linux 7](https://aws.amazon.com/marketplace/pp/prodview-eejbdo2llrlnu?sr=0-14&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 11 LTS Java Machine for Red Hat Enterprise Linux 8](https://aws.amazon.com/marketplace/pp/prodview-7x2iq4mlm725s?sr=0-15&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 11 LTS Java Machine for CentOS 7](https://aws.amazon.com/marketplace/pp/prodview-2szg34g6ign7y?sr=0-5&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 11 LTS Java Machine for Debian Linux 10](https://aws.amazon.com/marketplace/pp/prodview-tiapwlqk2u4rs?sr=0-9&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 11 LTS Java Machine for Debian Linux 11](https://aws.amazon.com/marketplace/pp/prodview-sp2jemzmiurfs?sr=0-7&ref_=beagle&applicationId=AWSMPContessa) 
+*   [OpenJDK 11 LTS Java Machine for Ubuntu 18.04](https://aws.amazon.com/marketplace/pp/prodview-qlcw4lqkkcua6?sr=0-1&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 11 LTS Java Machine for Ubuntu 20.04](https://aws.amazon.com/marketplace/pp/prodview-2rwyqg6enziqc?sr=0-6&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 11 LTS Java Machine for Ubuntu 22.04](https://aws.amazon.com/marketplace/pp/prodview-awybf7pcer3aq?sr=0-4&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 11 LTS Java Machine for Fedora 31](https://aws.amazon.com/marketplace/pp/prodview-nzn2qy6f6tnme?sr=0-3&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 11 LTS Java Machine for openSUSE Leap 15.2](https://aws.amazon.com/marketplace/pp/prodview-ni52vvwg6lwqc?sr=0-8&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 11 LTS Java Machine for SUSE Linux Enterprise Server 12 SP5](https://aws.amazon.com/marketplace/pp/prodview-ceh27vzz4j5sq?sr=0-16&ref_=beagle&applicationId=AWSMPContessa)
 
 [](https://github.com/kurianinc/ami-pub/wiki/Java-Machine#unsupported-configurations)Unsupported Configurations
 ===============================================================================================================
