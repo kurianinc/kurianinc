@@ -62,20 +62,24 @@ Click on the links below to take you to Amazon Marketplace for spinning up EC2 n
 [](https://github.com/kurianinc/ami-pub/wiki/Jenkins-2.x-AMI-by-Kurian#latest-releases)Latest Releases
 ------------------------------------------------------------------------------------------------------
 
-*   [Jenkins Automation Server 2.233 for Ubuntu 16.04](https://aws.amazon.com/marketplace/pp/B087XYGW9T?ref=_ptnr_amidoc_github)
-*   [Jenkins Automation Server 2.233 for Ubuntu 18.04](https://aws.amazon.com/marketplace/pp/B087XD6GV6?ref=_ptnr_amidoc_github)
-*   [Jenkins Automation Server 2.233 for Ubuntu 20.04](https://aws.amazon.com/marketplace/pp/prodview-cpiswc743jbaa?sr=0-2&ref_=beagle&applicationId=AWSMPContessa)
-*   [Jenkins Automation Server 2.233 for CentOS 7.x](https://aws.amazon.com/marketplace/pp/B087KKKD4G?ref=_ptnr_amidoc_github)
-*   [Jenkins Automation Server 2.233 for CentOS 8.x](https://aws.amazon.com/marketplace/pp/B088KRDVCJ?ref=_ptnr_amidoc_github)
-*   [Jenkins Automation Server 2.233 for RHEL 7.x](https://aws.amazon.com/marketplace/pp/B087GXLZ5S?ref=_ptnr_amidoc_github)
-*   [Jenkins Automation Server 2.233 for RHEL 8.x](https://aws.amazon.com/marketplace/pp/B087XVGKNF?ref=_ptnr_amidoc_github)
-*   [Jenkins Automation Server 2.233 for Fedora 31](https://aws.amazon.com/marketplace/pp/B087GWDZZ6?ref=_ptnr_amidoc_github)
-*   [Jenkins Automation Server 2.233 for Amazon Linux 2018](https://aws.amazon.com/marketplace/pp/B087XC46VM?ref=_ptnr_amidoc_github)
-*   [Jenkins Automation Server 2.233 for Amazon Linux 2](https://aws.amazon.com/marketplace/pp/B087XCWY7M?ref=_ptnr_amidoc_github)
-*   [Jenkins Automation Server 2.233 for openSUSE Linux 15](https://aws.amazon.com/marketplace/pp/B0881VC3WV?ref=_ptnr_amidoc_github)
-*   [Jenkins Automation Server 2.233 for SUSE Linux 12](https://aws.amazon.com/marketplace/pp/B087XCBFH6?ref=_ptnr_amidoc_github)
-*   [Jenkins Automation Server 2.233 for SUSE Linux 15](https://aws.amazon.com/marketplace/pp/B087XWNRZG?ref=_ptnr_amidoc_github)
-*   [Jenkins Automation Server 2.233 for Debian 10](https://aws.amazon.com/marketplace/pp/B087XDGMP3?ref=_ptnr_amidoc_github)
+
+*   [Jenkins Continuous Integration (CI) Server for Ubuntu 18.04](https://aws.amazon.com/marketplace/pp/prodview-lf6ea5oqmech2?sr=0-2&ref_=beagle&applicationId=AWSMPContessa)
+*   [Jenkins Continuous Integration (CI) Server for Ubuntu 20.04](https://aws.amazon.com/marketplace/pp/prodview-cpiswc743jbaa?sr=0-10&ref_=beagle&applicationId=AWSMPContessa)
+*   [Jenkins Server for Ubuntu 22.04](https://aws.amazon.com/marketplace/pp/prodview-c5gncr7cidf7s?sr=0-1&ref_=beagle&applicationId=AWSMPContessa)
+*   [Jenkins Continuous Integration (CI) Server for CentOS 7](https://aws.amazon.com/marketplace/pp/prodview-ekogbgarnpa5m?sr=0-5&ref_=beagle&applicationId=AWSMPContessa)
+*   [Jenkins Continuous Integration (CI) Server for Red Hat Linux 7](https://aws.amazon.com/marketplace/pp/prodview-kfol4fptuoo7g?sr=0-18&ref_=beagle&applicationId=AWSMPContessa)
+*   [Jenkins Continuous Integration (CI) Server for Red Hat Linux 8](https://aws.amazon.com/marketplace/pp/prodview-ycwgzirvyyrz4?sr=0-11&ref_=beagle&applicationId=AWSMPContessa)
+*   [Jenkins Continuous Integration (CI) Server for Debian GNU/Linux 10](https://aws.amazon.com/marketplace/pp/prodview-yenl7v3p524gu?sr=0-12&ref_=beagle&applicationId=AWSMPContessa)
+*   [Jenkins Continuous Integration (CI) Server for Debian GNU/Linux 11](https://aws.amazon.com/marketplace/pp/prodview-hchtxt2dzmfru?sr=0-19&ref_=beagle&applicationId=AWSMPContessa)
+*   [Jenkins Continuous Integration (CI) Server for Amazon Linux 2](https://aws.amazon.com/marketplace/pp/prodview-lbtexzfoxxklw?sr=0-7&ref_=beagle&applicationId=AWSMPContessa)
+*   [Jenkins Continuous Integration (CI) Server for Amazon Linux 2018](https://aws.amazon.com/marketplace/pp/prodview-mcypqjr7p7izm?sr=0-9&ref_=beagle&applicationId=AWSMPContessa)
+*   [Jenkins Continuous Integration (CI) Server for AlmaLinux 8](https://aws.amazon.com/marketplace/pp/prodview-sikvr7t56euz4?sr=0-13&ref_=beagle&applicationId=AWSMPContessa)
+*   [Jenkins Continuous Integration (CI) Server for Rocky Linux 8](https://aws.amazon.com/marketplace/pp/prodview-3bxkpcim4zdi4?sr=0-15&ref_=beagle&applicationId=AWSMPContessa)
+*   [Jenkins Continuous Integration (CI) Server for Oracle Linux 7](https://aws.amazon.com/marketplace/pp/prodview-6on4k6uku7wde?sr=0-17&ref_=beagle&applicationId=AWSMPContessa)
+*   [Jenkins Continuous Integration (CI) Server for Oracle Linux 8](https://aws.amazon.com/marketplace/pp/prodview-ebchynvaq3ype?sr=0-16&ref_=beagle&applicationId=AWSMPContessa)
+*   [Jenkins Continuous Integration (CI) Server for Red Hat Linux 7](https://aws.amazon.com/marketplace/pp/prodview-kfol4fptuoo7g?sr=0-18&ref_=beagle&applicationId=AWSMPContessa)
+*   [Jenkins Slave for SUSE Linux Enterprise Server 15](https://aws.amazon.com/marketplace/pp/prodview-qkbgmcdxvwufy?sr=0-20&ref_=beagle&applicationId=AWSMPContessa)
+[Jenkins Continuous Integration (CI) Server LTS for Fedora 31](https://aws.amazon.com/marketplace/pp/prodview-32aogwob2xpqq?sr=0-6&ref_=beagle&applicationId=AWSMPContessa)
 
 [](https://github.com/kurianinc/ami-pub/wiki/Jenkins-2.x-AMI-by-Kurian#older-releases)Older Releases
 ----------------------------------------------------------------------------------------------------
