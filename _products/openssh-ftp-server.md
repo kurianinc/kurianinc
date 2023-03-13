@@ -20,19 +20,24 @@ SFTP Server by Kurian is based on the OpenSSH Server platform and it is configur
 Following distributions and versions of AMIs are available on AWS Marketplace:
 
 *   [OpenSSH FTP Server for Debian Linux 10](https://aws.amazon.com/marketplace/pp/prodview-blolmpx3zihuu?sr=0-1&ref_=beagle&applicationId=AWSMPContessa)
-*   \[OpenSSH FTP Server for Amazon Linux 2018\](Not supported)
+*   [OpenSSH FTP Server for Debian Linux 11](https://aws.amazon.com/marketplace/pp/prodview-dhut24sdbbzxk?sr=0-7&ref_=beagle&applicationId=AWSMPContessa)
 *   [OpenSSH FTP Server for Amazon Linux 2](https://aws.amazon.com/marketplace/pp/prodview-i46dajyqwaawq?sr=0-4&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenSSH FTP Server for AlmaLinux 8 with Support by Kurian](https://aws.amazon.com/marketplace/pp/prodview-223jwc7ut4nw4?sr=0-10&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenSSH FTP Server for Rocky Linux 8 with Support by Kurian](https://aws.amazon.com/marketplace/pp/prodview-wianlel3u7tya?sr=0-11&ref_=beagle&applicationId=AWSMPContessa)
 *   [OpenSSH FTP Server for Ubuntu 16.04](https://aws.amazon.com/marketplace/pp/prodview-3fkft5jyqut7y?sr=0-3&ref_=beagle&applicationId=AWSMPContessa)
 *   [OpenSSH FTP Server for Ubuntu 18.04](https://aws.amazon.com/marketplace/pp/prodview-g6zryyv6u3ao4?sr=0-2&ref_=beagle&applicationId=AWSMPContessa)
 *   [OpenSSH FTP Server for Ubuntu 20.04](https://aws.amazon.com/marketplace/pp/prodview-qzjquia3bzra6?sr=0-6&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenSSH FTP Server for Ubuntu 22.04 with Support by Kurian](https://aws.amazon.com/marketplace/pp/prodview-6ggwgz5zhix7c?sr=0-8&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenSSH FTP Server for Oracle Linux 7 with Support by Kurian](https://aws.amazon.com/marketplace/pp/prodview-pb7qzat5e4ulg?sr=0-12&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenSSH FTP Server for Oracle Linux 8 with Support by Kurian](https://aws.amazon.com/marketplace/pp/prodview-mwprjoxngmwwe?sr=0-13&ref_=beagle&applicationId=AWSMPContessa)
 *   \[OpenSSH FTP Server for CentOS 7\](Not supported)
 *   [OpenSSH FTP Server for CentOS 8](https://aws.amazon.com/marketplace/pp/prodview-wru3otqroji5k?sr=0-7&ref_=beagle&applicationId=AWSMPContessa)
 *   \[OpenSSH FTP Server for Red Hat Enterprise Linux 7\](Not supported)
 *   \[OpenSSH FTP Server for Red Hat Enterprise Linux 8\](Not supported)
-*   \[OpenSSH FTP Server for Fedora 31\](Not supported)
+*   [OpenSSH FTP Server for Fedora 37 with Support by Kurian](https://aws.amazon.com/marketplace/pp/prodview-4kddgas7swr4y?sr=0-9&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenSSH FTP Server for SUSE Linux Enterprise Server 12](https://aws.amazon.com/marketplace/pp/prodview-qyu6ubq7gkglw?sr=0-6&ref_=beagle&applicationId=AWSMPContessa)
 *   [OpenSSH FTP Server for SUSE Linux 12](https://aws.amazon.com/marketplace/pp/prodview-qyu6ubq7gkglw?sr=0-5&ref_=beagle&applicationId=AWSMPContessa)
 *   [OpenSSH FTP Server for SUSE Linux 15](https://aws.amazon.com/marketplace/pp/prodview-zqr4ybm5opjeu?sr=0-1&ref_=beagle&applicationId=AWSMPContessa)
-*   \[Postfix Mail Server for openSUSE Linux Leap 15.2\](Not supported)
 
 [](https://github.com/kurianinc/ami-pub/wiki/OpenSSH-FTP-Server#unsupported-configurations)Unsupported Configurations
 =====================================================================================================================
