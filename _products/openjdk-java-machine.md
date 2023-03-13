@@ -79,6 +79,21 @@ Click on the links below to take you to Amazon Marketplace for spinning up EC2 n
 *   [OpenJDK 11 LTS Java Machine for Fedora 31](https://aws.amazon.com/marketplace/pp/prodview-nzn2qy6f6tnme?sr=0-3&ref_=beagle&applicationId=AWSMPContessa)
 *   [OpenJDK 11 LTS Java Machine for openSUSE Leap 15.2](https://aws.amazon.com/marketplace/pp/prodview-ni52vvwg6lwqc?sr=0-8&ref_=beagle&applicationId=AWSMPContessa)
 *   [OpenJDK 11 LTS Java Machine for SUSE Linux Enterprise Server 12 SP5](https://aws.amazon.com/marketplace/pp/prodview-ceh27vzz4j5sq?sr=0-16&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 17 LTS Java Machine for Ubuntu 18.04](https://aws.amazon.com/marketplace/pp/prodview-52tpitmb22kli?sr=0-4&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 17 LTS Java Machine for Ubuntu 20.04](https://aws.amazon.com/marketplace/pp/prodview-e22vf4jppk4us?sr=0-5&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 17 LTS Java Machine for Ubuntu 22.04](https://aws.amazon.com/marketplace/pp/prodview-oddzz76dwak66?sr=0-1&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 17 LTS Java Machine for Fedora 31](https://aws.amazon.com/marketplace/pp/prodview-5e3snlehhkdoy?sr=0-3&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 17 LTS Java Machine for Debian Linux 10](https://aws.amazon.com/marketplace/pp/prodview-a5jyuuecxo3hi?sr=0-10&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 17 LTS Java Machine for Debian Linux 11](https://aws.amazon.com/marketplace/pp/prodview-a54tteph6afta?sr=0-8&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 17 LTS Java Machine for CentOS 7](https://aws.amazon.com/marketplace/pp/prodview-i345m62tuxnss?sr=0-6&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 17 LTS Java Machine for Amazon Linux 2](https://aws.amazon.com/marketplace/pp/prodview-76pz5jhauudw6?sr=0-9&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 17 LTS Java Machine for AlmaLinux 8](https://aws.amazon.com/marketplace/pp/prodview-k675yqbsvmddm?sr=0-2&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 17 LTS Java Machine for Rocky Linux 8](https://aws.amazon.com/marketplace/pp/prodview-aafbolbdfvjw6?sr=0-7&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 17 LTS Java Machine for Oracle Linux Server 7](https://aws.amazon.com/marketplace/pp/prodview-aoqrfgowpoqf6?sr=0-11&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 17 LTS Java Machine for Oracle Linux Server 8](https://aws.amazon.com/marketplace/pp/prodview-33wal5zzrrxiy?sr=0-12&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 17 LTS Java Machine for Red Hat Enterprise Linux 7](https://aws.amazon.com/marketplace/pp/prodview-2zflhd3fhpa7k?sr=0-14&ref_=beagle&applicationId=AWSMPContessa)
+*   [OpenJDK 17 LTS Java Machine for Red Hat Enterprise Linux 8](https://aws.amazon.com/marketplace/pp/prodview-ytnbtr2qcc4vi?sr=0-13&ref_=beagle&applicationId=AWSMPContessa)
+
 
 [](https://github.com/kurianinc/ami-pub/wiki/Java-Machine#unsupported-configurations)Unsupported Configurations
 ===============================================================================================================
