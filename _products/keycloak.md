@@ -31,7 +31,9 @@ Keycloak is an open-source identity and access management (IAM) solution that of
   * Fedora: /etc/nginx/nginx.conf
  
 * SSH into the EC2 node and check if the `keycloak` service is running:
-  ```sudo systemctl status keycloak```
+  ```
+  $ sudo systemctl status keycloak
+  ```
 * At times, the keycloak service might not have been started due to database connectvity errors. If that is the case, run the following script and try starting the service:
   ```
   $ sudo /etc/kk-config-database.sh
