@@ -30,6 +30,13 @@ Keycloak is an open-source identity and access management (IAM) solution that of
   * Amazon Linux: /etc/nginx/nginx.conf
   * Fedora: /etc/nginx/nginx.conf
  
+* SSH into the EC2 node and check if the `keycloak` service is running:
+  ```sudo systemctl status keycloak```
+* At times, the keycloak service might not have been started due to database connectvity errors. If that is the case, run the following script and try starting the service:
+  ```
+  $ sudo /etc/kk-config-database.sh
+  $ sudo systemctl start keycloak
+  ```
 * If you are accessing the Keycloak service using a load balancer and plan to terminate SSL at the LB level, this configuration is not needed. You just need to point the load balancer to the port 8080 on the EC2 node for the subdomain traffic.
 
 * To enable HTTPS you need a subdmain to access the Keycloak service, such as keycloak.yourcompany.com, and an SSL certificate for that. The certificate can be obtained from the free service LetsEncrypt (https://letsencrypt.org/) or be bought from a reputed Certificate Authority (CA) or a self-signed certificate can be generated also.
